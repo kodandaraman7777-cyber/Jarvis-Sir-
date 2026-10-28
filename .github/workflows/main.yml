@@ -23,7 +23,7 @@ jobs:
           gradle-version: '8.9'
 
       - name: Build APK
-        run: gradle projects --no-daemon
+        run: gradle :app:assembleDebug --no-daemon
         
       - name: Save APK
         uses: actions/upload-artifact@v4
