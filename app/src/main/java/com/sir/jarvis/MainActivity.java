@@ -40,7 +40,7 @@ public class MainActivity extends Activity {
         speak.setOnClickListener(v -> {
             if (tts != null) {
                 tts.speak(
-                    "Hello Sir. JARVIS is ready.",
+                    "చెప్పండి సార్, నేను రెడీగా ఉన్నా. ఏం చేయాలి?"
                     TextToSpeech.QUEUE_FLUSH,
                     null,
                     "jarvis"
