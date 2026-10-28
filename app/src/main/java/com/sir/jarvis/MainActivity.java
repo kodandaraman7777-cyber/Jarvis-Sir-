@@ -33,7 +33,7 @@ public class MainActivity extends Activity {
 
         tts = new TextToSpeech(this, status -> {
             if (status == TextToSpeech.SUCCESS) {
-                tts.setLanguage(Locale.ENGLISH);
+                tts.setLanguage(new Locale("te", "IN"));
             }
         });
 
